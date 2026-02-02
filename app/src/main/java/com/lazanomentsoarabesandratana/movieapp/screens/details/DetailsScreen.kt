@@ -96,6 +96,7 @@ fun MainDetaisScreen(navController: NavController = rememberNavController(), mod
         Divider()
         horizontalScrollableImageView(movie)
 
+
         /*Text("Movie data ${movie?.title}",
             style = MaterialTheme.typography.headlineLarge)
         Spacer(modifier = Modifier.height(23.dp))
